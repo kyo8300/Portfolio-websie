@@ -7,7 +7,7 @@
 
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -17,8 +17,13 @@ body {
 
 /* Titles */
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway';
   font-weight: 300;
   color: #333;
 }
@@ -46,13 +51,15 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #7b7b7b;
   text-decoration: none;
   outline: 0;
 }
 
-a:before, a:after {
+a:before,
+a:after {
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -80,7 +87,8 @@ hr {
   right: 0;
   z-index: 10000;
   overflow: visible;
-  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 16px/24px 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
 }
 
 #section-topbar a {
@@ -110,7 +118,7 @@ By default, top navigation bar uses "fixed" position
   *display: inline;
 }
 
-#section-topbar ul#nav>li {
+#section-topbar ul#nav > li {
   display: block;
   float: left;
   padding: 0;
@@ -118,7 +126,7 @@ By default, top navigation bar uses "fixed" position
 
 #section-topbar ul#nav a {
   display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 11px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-decoration: none;
   padding: 18px 20px 18px 20px;
   border-left: 1px solid #222;
@@ -156,7 +164,7 @@ SECTION WRAPS
 /* Header Wrap */
 
 #headerwrap {
-  background: url(../img/header-bg.jpg) no-repeat center top;
+  background: url(../img/kyoheader.JPG) no-repeat center top;
   margin-top: 60px;
   padding-top: 140px;
   text-align: center;
@@ -193,7 +201,8 @@ SECTION WRAPS
   color: white;
 }
 
-#intro h5, p {
+#intro h5,
+p {
   color: white;
 }
 
@@ -211,7 +220,8 @@ SECTION WRAPS
   color: white;
 }
 
-#skillswrap h5, p {
+#skillswrap h5,
+p {
   color: white;
 }
 
@@ -291,7 +301,8 @@ sm {
   color: #999;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px 12px;
   border-radius: 0;
   box-shadow: none;
@@ -334,7 +345,7 @@ sm {
 }
 
 .contact-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -387,4 +398,21 @@ sm {
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+#page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+#page_top a:hover {
+  background-color: #666;
+  text-decoration: none;
 }
